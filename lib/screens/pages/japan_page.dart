@@ -9,8 +9,7 @@ class JapanPage extends StatelessWidget {
         //TODO
         body: Column(
           children: [
-            Expanded(child: Image.asset("assets/images/japan_citrus.jpg")),
-
+            Expanded(child: Image.asset("assets/images/japan_citrus.jpg",fit: BoxFit.fitWidth)),
           ],
         ),
     )

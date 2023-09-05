@@ -8,7 +8,7 @@ class WorldPage extends StatelessWidget {
         //TODO
         body: Column(
           children: [
-            Expanded(child: Image.asset("assets/images/world_citrus.jpg")),
+            Expanded(child: Image.asset("assets/images/world_citrus.jpg",fit: BoxFit.fitWidth),),
           ],
         ),
       )
